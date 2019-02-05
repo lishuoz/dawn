@@ -1,0 +1,9 @@
+<div class="project-list">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4" *ngFor="let project of projects">
+        <app-project-cover [project]="project"></app-project-cover>
+      </div>
+    </div>
+  </div>
+</div>

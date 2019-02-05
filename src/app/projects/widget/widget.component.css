@@ -1,0 +1,52 @@
+#widget-text{
+    position: relative;
+    left: 13%;
+    opacity: 0;
+    -webkit-animation-name: fade; 
+    -webkit-animation-duration: 5s; 
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+#widget{
+    left: 12%;
+    position: relative;
+    bottom: -100px;
+    z-index: -1;
+    -webkit-animation-name: pop; 
+    -webkit-animation-duration: 5s; 
+    animation-name: pop;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes pop {
+    0% {bottom: -100px;}
+    50% {bottom: -30px;}
+    90% {bottom: -30px;}
+    100% {bottom: -100px;}
+}
+
+@-webkit-keyframes fade {
+    0% { opacity: 0 }
+    50% { opacity: 1 }
+    90% { opacity: 1 }
+    100% { opacity: 0 }
+}
+
+/* Standard syntax */
+@keyframes pop {
+    0% {bottom: -100px;}
+    50% {bottom: -30px;}
+    90% {bottom: -30px;}
+    100% {bottom: -100px;}
+}
+
+@keyframes fade {
+    0% { opacity: 0 }
+    50% { opacity: 1 }
+    90% { opacity: 1 }
+    100% { opacity: 0 }
+}

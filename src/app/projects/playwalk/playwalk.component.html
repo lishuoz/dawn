@@ -1,0 +1,510 @@
+<div class="container">
+  <app-project-hero [project]="project"></app-project-hero>
+</div>
+<div class="section section-grey">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Storytelling</h3>
+      <p class="my-3 font-weight-light">Playwalk is a mobile entertainment application that aims at exploring the city
+        through play for a more mindful, meaningful, and engaging experience for the user.
+      </p>
+      <figure class="figure my-3">
+        <img src="assets/img/{{this.project.url}}/banner.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} banner">
+        <figcaption class="font-weight-light my-3 figure-caption text-center">
+          <p>Playwalk’s founders hope to help people become more connected with their cities and the cities they visit
+            through sense-guided exploration and active play.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Survey</h3>
+      <p class="my-3 font-weight-light">Our team created an online survey and got back around 200 responses. With the
+        feedback, we were able to obtain a significant amount of quantitative data for our analysis.
+      </p>
+      <div class="row">
+        <div class="col-12 col-md-6 align-self-center">
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/survey01-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/survey01.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} survey01">
+            </a>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6">
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/survey02-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/survey02.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} survey02">
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Interview</h3>
+      <p class="my-3 font-weight-light">We interviewed 7 participants, both current members of the Playwalk community
+        and potential users. The interviews were more directly aimed at finding solutions, sharing experience, and
+        keeping the engagement.
+      </p>
+      <table class="table table-hover text-left">
+        <thead>
+          <tr>
+            <th scope="col">Initials</th>
+            <th scope="col">Relation to Playwalk</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let interview of interviews">
+            <th scope="row">{{interview.initials}}</th>
+            <td>{{interview.relationship}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Playmissions</h3>
+      <p class="my-3 font-weight-light">Playmissions represented the team’s first method of data gathering. Acting as
+        participants allowed us to take part in playful urban exploration and experience sharing, giving us insight
+        into our future users’ realities, needs, and expectations.
+      </p>
+      <figure class="figure mt-3">
+        <img src="assets/img/{{this.project.url}}/playmission01.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} playmission01">
+      </figure>
+      <figure class="figure">
+        <img src="assets/img/{{this.project.url}}/playmission02.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} playmission02">
+      </figure>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Brainstorming</h3>
+      <p class="my-3 font-weight-light">Our team discussed potential features for the Playwalk application with our
+        sponsors. These brainstorming sessions were largely informed by the results of our semi-structured interviews
+        and playmissions.
+      </p>
+      <figure class="figure my-3">
+        <img src="assets/img/{{this.project.url}}/brainstorming01.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} brainstorming01">
+      </figure>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Decision-making</h3>
+      <p class="my-3 font-weight-light">Before we started to design wireframe prototypes, we generated a list of
+        functions we thought the Playwalk app might have (as raised in our discussions), then narrowed it down to five
+        core functions. Each team member and two sponsors rated each feature from 0 (shouldn’t be included) to 3 (key
+        feature) individually, and we tallied the scores.
+      </p>
+      <figure class="figure my-3">
+        <img src="assets/img/{{this.project.url}}/brainstorming02.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} brainstorming02">
+      </figure>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">
+        Low-fidelity Design
+      </h3>
+      <p class="my-3 font-weight-light">
+        After our team had a better idea of the central features of the app, we started
+        to create a number of low-fidelity prototypes to allow us to communicate our ideas with the team and our
+        sponsors.
+      </p>
+      <div class="row">
+        <div class="col-12 col-md-6 align-self-center">
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/low-01-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/low-01.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} low-01">
+            </a>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6">
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/low-02-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/low-02.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} low-02">
+            </a>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 align-self-center">
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/low-03-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/low-03.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} low-03">
+            </a>
+          </figure>
+        </div>
+        <div class="col-12 col-md-6">
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/low-04-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/low-04.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} low-04">
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Consolidation</h3>
+      <p class="my-3 font-weight-light">
+        After the development of our initial prototypes, we came together as a group and decided on the main functions
+        of the application and the core navigation system. Our focus was on the skeleton of the app rather than the
+        technical details, but we also tried to develop the layout of the key screens.
+      </p>
+      <figure class="figure my-3">
+        <img src="assets/img/{{this.project.url}}/consolidation.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} consolidation">
+      </figure>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">
+        Design and Crafts
+      </h3>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 align-self-center">
+          <h3 class="h6 mt-3 mb-0">
+            Login Page
+          </h3>
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/high-01-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/high-01.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} high-01">
+            </a>
+          </figure>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 align-self-center">
+          <h3 class="h6 mt-3 mb-0">
+            Discovery Page
+          </h3>
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/high-02-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/high-02.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} high-02">
+            </a>
+          </figure>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 align-self-center">
+          <h3 class="h6 mt-3 mb-0">
+            Mission Detail Page
+          </h3>
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/high-03-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/high-03.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} high-03">
+            </a>
+          </figure>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 align-self-center">
+          <h3 class="h6 mt-3 mb-0">
+            Mission Detail Page
+          </h3>
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/high-04-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/high-04.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} high-04">
+            </a>
+          </figure>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 align-self-center">
+          <h3 class="h6 mt-3 mb-0">
+            Map Page
+          </h3>
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/high-05-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/high-05.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} high-05">
+            </a>
+          </figure>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 align-self-center">
+          <h3 class="h6 mt-3 mb-0">
+            Co-walking Page
+          </h3>
+          <figure class="figure my-3">
+            <a href="assets/img/{{this.project.url}}/high-06-lightbox.png" data-lity>
+              <img src="assets/img/{{this.project.url}}/high-06.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} high-06">
+            </a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">
+        Testing
+      </h3>
+      <p class="my-3 font-weight-light">
+        We utilized the PD tools and techniques of feedback sessions, testing workshops and interviews in order to
+        complete user testing of our high-fidelity prototype. We performed a prototype testing session with 3
+        participants. Two of them had been involved in earlier stages of the user research process (one local urbanist
+        and another tourist), while the other had little knowledge of the design idea.
+      </p>
+      <div class="row align-items-start">
+        <div class="col-12 col-lg-4 align-self-center order-lg-1 order-1">
+          <figure class="figure my-3">
+            <img src="assets/img/{{this.project.url}}/testing-01.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} testing-01">
+          </figure>
+        </div>
+        <div class="col-12 col-lg-4 align-self-center order-lg-2 order-3">
+          <figure class="figure my-3">
+            <img src="assets/img/{{this.project.url}}/testing-02.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} testing-02">
+          </figure>
+        </div>
+        <div class="col-12 col-lg-4 align-self-center order-lg-3 order-5">
+          <figure class="figure my-3">
+            <img src="assets/img/{{this.project.url}}/testing-03.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} testing-03">
+          </figure>
+        </div>
+        <div class="col-12 col-lg-4 order-md-2 order-lg-4 order-2">
+          <figure class="figure">
+            <figcaption class="mb-3 figure-caption text-black-50">
+              <p><strong>Tester One:</strong> Tester One was initially confused about the functionality and usability
+                of the app, but
+                after we explained the main idea, she thought it was really interesting. The adoptable suggestions she
+                proposed were to show path or route of the mission due to a safety concern, to provide options to
+                choose a level of mystery, and to include games like guessing the location in a shared picture.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-lg-4 order-lg-5 order-4">
+          <figure class="figure">
+            <figcaption class="mb-3 figure-caption text-black-50">
+              <p><strong>Tester Two:</strong> In addition to the current functions, Tester Two wanted to see her
+                friends’ availability
+                and status (such as information on what they are doing and what missions they have completed). She was
+                interested in competition between friends and also concerned about the potential privacy issues with
+                the application. She suggested the development of shorter missions that can be performed within 10
+                minutes, and missions based on specific locations.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-lg-4 order-lg-6 order-6">
+          <figure class="figure">
+            <figcaption class="mb-3 figure-caption text-black-50">
+              <p><strong>Tester Three:</strong> Tester Three was confused about some icons like location pins on the
+                map and
+                user-created missions. He suggested putting mission age as the first filter on the list and adding the
+                function to share users experiences through other forms of social media. He also noted the limitations
+                of offline functionality.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Testing Result </h3>
+      <p class="my-3 font-weight-light">
+        All three testers remarked on issues such as privacy and safety issues and gave us information on their visual
+        design preferences. All three participants thought that the prototype was clear, self-explanatory,
+        user-friendly, and did not have major navigation problems. We modified our prototype in a number of ways based
+        on the testing session, as you can see below.
+      </p>
+      <figure class="figure my-3">
+        <img src="assets/img/{{this.project.url}}/testing-04.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} testing-04">
+      </figure>
+      <p class="mb-3 font-weight-light">
+        The above images represent two possible versions of discover page. Testers compared these two versions and
+        concluded that the right one was much clearer. The left page was divided into six square images representing
+        different missions. However, most of our test users said that each square contained so little information that
+        it would be difficult to know what the mission is about. They would prefer more detailed information for each
+        mission. Based on this feedback, we decided to go with the mission list interface. Each mission’s name,
+        hashtags, difficulty, the number of players, time, and popularity is displayed.
+      </p>
+      <figure class="figure my-3">
+        <img src="assets/img/{{this.project.url}}/testing-05.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} testing-05">
+      </figure>
+      <p class="mb-3 font-weight-light">
+        The above images are two versions of our map page. For the left version (used during testing), users complained
+        that they had no idea about what each pin represented. At first, we changed our pins into different colors, but
+        the user still said that they had difficulty distinguishing the meanings behind the colors. Finally, we changed
+        our icons into representations of the five senses with different colors. These allow users to quickly and
+        intuitively understand the content represented by each pin.
+      </p>
+    </div>
+  </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Further Steps
+      </h3>
+      <p class="my-3 font-weight-light">Our team completed our goal of developing a high fidelity prototype for
+        Playwalk through the use of Participatory Design techniques. The user testing helped us to partially answer a
+        number of questions about how our users interact with the application in a real-world context. However, the
+        testing session also raised new questions about how to redesign the application.
+      </p>
+      <table class="table table-hover text-left table-future-step mt-2">
+        <thead>
+          <tr>
+            <th scope="col">Answered by Testing Session </th>
+            <th scope="col">Raised by Testing Session</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="align-middle">
+              How does the prototype assist our users in exploring the city and sharing their
+              experiences?
+            </td>
+            <td>How can we improve the features of the app that our users found useful?
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">
+              Do the key features of the prototype correspond to the most used features within the app?
+            </td>
+            <td>1. What are the app’s key features?
+              <br>
+              2. What features should the application be built around?
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">
+              Can users easily navigate through the app and find the features that they need?
+            </td>
+            <td>
+              1. Is the core navigation system used in the prototype suitable for the final app?
+              <br>
+              2. How can we make it easier for our users to find and use the core features of the app?
+              <br>
+              3. Are there any navigation problems that need to be fixed?
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">
+              Was there any user need unmet by the prototype?
+            </td>
+            <td>What new features or functions can be added to the application?
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">
+              What was the user’s opinion on the app’s visual design?
+            </td>
+            <td>
+              How can we make the application aesthetically pleasing while keeping it functional?
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<div class="section section-grey">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Information</h3>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h3 class="h6 my-3">Time</h3>
+          <p class="my-3 font-weight-light">
+            September 2014 - December 2014
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h3 class="h6 my-3">Group Member
+          </h3>
+          <p class="my-3 font-weight-light">
+            Benjamin Caughran
+          </p>
+          <p class="my-3 font-weight-light">
+            <a href="https://www.linkedin.com/in/dantinggao/" target="_blank">
+              Danting (Dannie) Gao
+            </a>
+          </p>
+          <p class="my-3 font-weight-light">
+            <a href="https://www.linkedin.com/in/gulily/" target="_blank">
+              Lily Gu
+            </a>
+          </p>
+          <p class="my-3 font-weight-light">
+            <a href="https://www.linkedin.com/in/lishuoz/" target="_blank">
+              Lishuo Zhang
+            </a>
+          </p>
+          <p class="my-3 font-weight-light">
+            <a href="https://www.linkedin.com/in/mari-roohi-70367995/" target="_blank">
+              Marzieh (Mari) Roohi
+            </a>
+          </p>
+          <p class="my-3 font-weight-light">
+            <a href="https://www.linkedin.com/in/shunan-chen-2587b311b/" target="_blank">
+              Shunan Chen
+            </a>
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h3 class="h6 my-3">Presentation</h3>
+          <p class="my-3 font-weight-light">
+            <a href="https://prezi.com/cxcx6qxzkypo/playwalk/?utm_campaign=share&utm_medium=copy" target="_blank">
+              Visit Site
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-button-section [nextUrl]="this.nextUrl"></app-button-section>

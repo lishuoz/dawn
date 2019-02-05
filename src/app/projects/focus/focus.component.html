@@ -1,0 +1,258 @@
+<div class="container">
+    <app-project-hero [project]="project"></app-project-hero>
+</div>
+<div class="section section-grey">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <h3 class="h4 my-3">Storytelling</h3>
+            <p class="my-3 font-weight-light">The idea of Focus came from a situation where most students found it hard
+                to focus on their assignments due to the distractions of their phones. The goal of Focus is to change
+                mobile phones from distractions into helpers for students during the study.
+            </p>
+            <figure class="figure my-3">
+                <img src="assets/img/{{this.project.url}}/banner-disable.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} banner">
+                <figcaption class="font-weight-light my-3 figure-caption text-center">
+                    <p>Smartphones have become the most distraction for students during study. </p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <h3 class="h4 my-3">1 Apper + 2 Developers </h3>
+            <p class="my-3 font-weight-light">Focus is a project for <a href="http://www.eecg.utoronto.ca/~jayar/ece1778/"
+                    target="_blank">Creative Applications for Mobile Devices</a>. This
+                course educated how designers and developers should work together and co-create a creative mobile
+                application. Our group consists of three members: one apper (i.e. product designer) and two developers.
+                We brainstormed the idea and did research on similar products. As a designer, I figured out the
+                user-flow and draw low-fidelity wireframes. With the wireframes, developers coded and implemented the
+                application.
+            </p>
+        </div>
+    </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <h3 class="h4 my-3">Overall Design</h3>
+            <p class="my-3 font-weight-light">We want Focus to help students improve study efficiency by using <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique"
+                    target="_blank">Pomodoro</a> technique, relax their body and minds by taking several deep breaths,
+                and keep a right sitting posture during each Pomodoro.
+            </p>
+            <figure class="figure my-3">
+                <img src="assets/img/{{this.project.url}}/overall-design.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} overall-design">
+            </figure>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h3 class="h6 my-3">Pomodoro Technique
+                    </h3>
+                    <p class="my-3 font-weight-light">The core function for Focus is a timer based on Pomodoro
+                        technique, which is to break down work into intervals traditionally 25 minutes in length,
+                        separated by short breaks. The method is based on the idea that frequent breaks can improve
+                        mental agility.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="h6 my-3">Relax Breathing
+                    </h3>
+                    <p class="my-3 font-weight-light">Before the user starts his task, Focus will ask him to take a
+                        deep breath to the microphone several times. This method is based on the idea that taking a
+                        deep breath can eliminate the worries and stresses that are distracting him and help to focus
+                        on his task easily.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="h6 my-3">Sitting Posture Detection
+                    </h3>
+                    <p class="my-3 font-weight-light">Focus can track user’s sitting posture by facial detection
+                        technique. Once the user is too close to the laptop. A red rectangle will appear on the screen
+                        to remind him to sit correctly. This method is based on the idea that good posture benefits
+                        better memory retention.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <h3 class="h4 my-3">
+                Low-fidelity Wireframes
+            </h3>
+            <div class="row">
+                <div class="col-12 col-md-4 align-self-center">
+                    <h3 class="h6 mt-3 mb-0">
+                        Step 1: Set Timer
+                    </h3>
+                    <figure class="figure my-3">
+                        <a href="assets/img/{{this.project.url}}/low-01-lightbox.png" data-lity>
+                            <img src="assets/img/{{this.project.url}}/low-01.png" class="figure-img img-fluid rounded"
+                                alt="{{this.project.title}} low-01">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 align-self-center">
+                    <h3 class="h6 mt-3 mb-0">
+                        Step 2: Breathe and Relax
+                    </h3>
+                    <figure class="figure my-3">
+                        <a href="assets/img/{{this.project.url}}/low-02-lightbox.png" data-lity>
+                            <img src="assets/img/{{this.project.url}}/low-02.png" class="figure-img img-fluid rounded"
+                                alt="{{this.project.title}} low-02">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 align-self-center">
+                    <h3 class="h6 mt-3 mb-0">
+                        Step 3: Sit Tight
+                    </h3>
+                    <figure class="figure my-3">
+                        <a href="assets/img/{{this.project.url}}/low-03-lightbox.png" data-lity>
+                            <img src="assets/img/{{this.project.url}}/low-03.png" class="figure-img img-fluid rounded"
+                                alt="{{this.project.title}} low-03">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 align-self-center">
+                    <h3 class="h6 mt-3 mb-0">
+                        Sitting Posture Alert
+                    </h3>
+                    <figure class="figure my-3">
+                        <a href="assets/img/{{this.project.url}}/low-04-lightbox.png" data-lity>
+                            <img src="assets/img/{{this.project.url}}/low-04.png" class="figure-img img-fluid rounded"
+                                alt="{{this.project.title}} low-04">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 align-self-center">
+                    <h3 class="h6 mt-3 mb-0">
+                        Pomodoro Collector
+                    </h3>
+                    <figure class="figure my-3">
+                        <a href="assets/img/{{this.project.url}}/low-05-lightbox.png" data-lity>
+                            <img src="assets/img/{{this.project.url}}/low-05.png" class="figure-img img-fluid rounded"
+                                alt="{{this.project.title}} low-05">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 align-self-center">
+                    <h3 class="h6 mt-3 mb-0">
+                        Pomodoro Garden
+                    </h3>
+                    <figure class="figure my-3">
+                        <a href="assets/img/{{this.project.url}}/low-06-lightbox.png" data-lity>
+                            <img src="assets/img/{{this.project.url}}/low-06.png" class="figure-img img-fluid rounded"
+                                alt="{{this.project.title}} low-06">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-hr></app-hr>
+
+<div class="section">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <h3 class="h4 my-3">Design and Crafts</h3>
+            <figure class="figure my-3">
+                <a href="assets/img/{{this.project.url}}/design-01-lightbox.png" data-lity>
+                    <img src="assets/img/{{this.project.url}}/design-01.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} design">
+                </a>
+                <figcaption class="font-weight-light my-3 figure-caption text-center">
+                    <p>Set Timer: Users click Start button and type how many Pomodoros they want to get. </p>
+                </figcaption>
+            </figure>
+            <figure class="figure my-3">
+                <a href="assets/img/{{this.project.url}}/design-02-lightbox.png" data-lity>
+                    <img src="assets/img/{{this.project.url}}/design-02.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} design">
+                </a>
+                <figcaption class="font-weight-light my-3 figure-caption text-center">
+                    <p>Completing a Pomodoro will get users a red Pomodoro and aborting will get the user a purple one.
+                        Users can share their achivement to social media.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="figure my-3">
+                <a href="assets/img/{{this.project.url}}/design-03-lightbox.png" data-lity>
+                    <img src="assets/img/{{this.project.url}}/design-03.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} design">
+                </a>
+                <figcaption class="font-weight-light my-3 figure-caption text-center">
+                    <p>Focus requires users to take three deep breath before studying. With user exhaling to the
+                        microphone, the balloon will get bigger until it explodes. After three deep breaths, the gray
+                        button will be activated and users can get started to study. </p>
+                </figcaption>
+            </figure>
+            <figure class="figure my-3">
+                <a href="assets/img/{{this.project.url}}/design-04-lightbox.png" data-lity>
+                    <img src="assets/img/{{this.project.url}}/design-04.png" class="figure-img img-fluid rounded" alt="{{this.project.title}} design">
+                </a>
+                <figcaption class="font-weight-light my-3 figure-caption text-center">
+                    <p>During each Pomodoro, Focus will continuously monitor user’s sitting posture based on the
+                        distance data between his eyes and mouth from Facial Detector. If the user sits too inclined or
+                        too low, the main screen will turn semi-transparent and a red rectangle will appear to alert
+                        the user put his head back to the area.
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<div class="section section-grey">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <h3 class="h4 my-3">Information</h3>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h3 class="h6 my-3">Time</h3>
+                    <p class="my-3 font-weight-light">
+                        September 2014 - April 2015
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="h6 my-3">Group Member
+                    </h3>
+                    <p class="my-3 font-weight-light">
+                        <a href="https://www.linkedin.com/in/lishuoz/" target="_blank">
+                            Lishuo Zhang
+                        </a>
+                    </p>
+                    <p class="my-3 font-weight-light">
+                        <a href="https://www.linkedin.com/in/yang-wang-860a6a90/" target="_blank">
+                            Yang Wang
+                        </a>
+                    </p>
+                    <p class="my-3 font-weight-light">
+                        <a href="https://www.linkedin.com/in/xinyun-lyu-353256b1/" target="_blank">
+                            Xinyun Lyu
+                        </a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="h6 my-3">My Role
+                    </h3>
+                    <p class="my-3 font-weight-light">
+                        UI/UX Designer
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-button-section [nextUrl]="this.nextUrl"></app-button-section>

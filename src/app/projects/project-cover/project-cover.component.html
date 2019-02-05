@@ -1,0 +1,16 @@
+<a href="projects/{{project?.url}}">
+  <div class="card border-0 project-cover my-3">
+    <div class="overlay" *ngIf="showOverlay" (mouseleave)="showOverlay=false">
+      <div class="overlay-content">
+        <p class="title">
+          <strong class="font-weight-normal">{{project?.title}}</strong>
+        </p>
+        <p class="subtitle font-weight-light">{{project?.client}}</p>
+      </div>
+    </div>
+
+    <figure class="figure m-0" (mouseover)="showOverlay=true">
+      <img src={{project?.cover}} class="card-img-top" alt={{project?.title}}>
+    </figure>
+  </div>
+</a>
