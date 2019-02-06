@@ -20,7 +20,7 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
     AppRoutingModule,
     ProjectsModule,
     MomentsModule,
-    PdfViewerModule
+    PdfViewerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
