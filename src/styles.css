@@ -1,9 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-.section{
+
+.section {
     padding: 42px 21px;
     text-align: center
 }
 
-.section-grey{
+.section-grey {
     background-color: rgb(245, 245, 245)
+}
+
+html, body {
+    height: 100%;
 }

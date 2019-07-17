@@ -8,8 +8,8 @@ import { Project } from 'src/app/model/project.model';
   styleUrls: ['./focus.component.css']
 })
 export class FocusComponent implements OnInit {
-  private project: Project
-  private nextUrl: string;
+  project: Project
+  nextUrl: string;
   constructor(
     private projectsService: ProjectsService
   ) { }

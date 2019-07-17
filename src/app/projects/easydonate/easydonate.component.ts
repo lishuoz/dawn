@@ -8,8 +8,8 @@ import { Project } from 'src/app/model/project.model';
   styleUrls: ['./easydonate.component.css']
 })
 export class EasydonateComponent implements OnInit {
-  private project: Project
-  private nextUrl: string;
+  project: Project
+  nextUrl: string;
   constructor(
     private projectsService: ProjectsService
   ) { }

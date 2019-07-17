@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class ProjectCoverComponent implements OnInit {
 
-  private showOverlay: boolean
+  showOverlay: boolean
   @Input() project: Project
   constructor(
     private router: Router

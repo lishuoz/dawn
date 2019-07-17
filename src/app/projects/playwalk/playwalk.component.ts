@@ -8,9 +8,9 @@ import { ProjectsService } from '../shared/projects.service';
   styleUrls: ['./playwalk.component.css']
 })
 export class PlaywalkComponent implements OnInit {
-  private project: Project
-  private nextUrl: string;
-  private interviews;
+  project: Project
+  nextUrl: string;
+  interviews;
   constructor(
     private projectsService: ProjectsService
   ) { }

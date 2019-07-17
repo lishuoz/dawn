@@ -8,8 +8,8 @@ import { ProjectsService } from '../shared/projects.service';
   styleUrls: ['./league.component.css']
 })
 export class LeagueComponent implements OnInit {
-  private project: Project
-  private nextUrl: string;
+  project: Project
+  nextUrl: string;
   constructor(
     private projectsService: ProjectsService
   ) { }

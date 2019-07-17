@@ -8,7 +8,7 @@ import { ProjectsService } from '../shared/projects.service';
   styleUrls: ['./project-list.component.css']
 })
 export class ProjectListComponent implements OnInit {
-  private projects: Project[];
+  projects: Project[];
   constructor(
     private projectsService: ProjectsService
   ) { }

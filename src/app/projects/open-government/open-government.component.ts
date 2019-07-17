@@ -8,8 +8,8 @@ import { ProjectsService } from '../shared/projects.service';
   styleUrls: ['./open-government.component.css']
 })
 export class OpenGovernmentComponent implements OnInit {
-  private project: Project
-  private nextUrl: string;
+  project: Project
+  nextUrl: string;
   constructor(
     private projectsService: ProjectsService
   ) { }

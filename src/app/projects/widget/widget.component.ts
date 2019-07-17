@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class WidgetComponent implements OnInit {
   private baseUrl = 'assets/img/widget/'
   private images = []
-  private imageUrl: string;
-  private imageTextUrl: string;
+  imageUrl: string;
+  imageTextUrl: string;
   private index: number;
   private interval;
   constructor() { }

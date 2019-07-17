@@ -40,6 +40,12 @@ export class ProjectsService {
         cover: 'assets/img/easydonate/cover.png',
         url: 'easydonate'
       },
+      {
+        title: 'Hump Day Design',
+        client: 'Graphic Design',
+        cover: 'assets/img/humpday/cover.png',
+        url: 'humpday'
+      },
     ];
   }
 

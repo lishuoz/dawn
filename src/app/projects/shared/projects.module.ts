@@ -15,7 +15,7 @@ import { LeagueComponent } from '../league/league.component';
 import { FocusComponent } from '../focus/focus.component';
 import { WidgetComponent } from '../widget/widget.component';
 import { EasydonateComponent } from '../easydonate/easydonate.component';
-
+import { HumpdayComponent } from '../humpday/humpday.component';
 
 @NgModule({
   imports: [
@@ -34,7 +34,8 @@ import { EasydonateComponent } from '../easydonate/easydonate.component';
     LeagueComponent,
     FocusComponent,
     WidgetComponent,
-    EasydonateComponent
+    EasydonateComponent,
+    HumpdayComponent
   ],
 })
 export class ProjectsModule { }

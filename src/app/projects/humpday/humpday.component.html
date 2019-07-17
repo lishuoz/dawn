@@ -1,0 +1,73 @@
+<div class="container">
+  <app-project-hero [project]="project"></app-project-hero>
+</div>
+<div class="section section-grey">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Storytelling</h3>
+      <p class="my-3 font-weight-light">Hump day refers to the Wednesday, regarded as the midpoint of a typical working
+        week. TransCore Link Logistics's Twitter account posted simple and clean graphical Twitt every Wednesday to its
+        cumtomers. These
+        graphical Twitt include friendly tips, event information, and promotions of its main product, Loadlink.
+      </p>
+      <figure class="figure my-3">
+        <img src="assets/img/{{this.project.url}}/banner-disable.png" class="figure-img img-fluid rounded"
+          alt="{{this.project.title}} banner">
+        <figcaption class="font-weight-light my-3 figure-caption text-center">
+          <p>Arriving on Wednesday symbolizes that we've made it over the hump and the weekend is in sight. </p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Hump Day Design</h3>
+      <p class="my-3 font-weight-light">Working as a graphic designer, I worked closely with the Director of Marketing
+        and the Social Media Content Writer to get the requirements and contents. I came up with design ideas and
+        transfer them into simple, elegant, and clean graphical designs. The following is my work.
+      </p>
+      <div *ngFor="let number of numbers">
+        <figure class="figure my-3">
+          <img src="assets/img/{{this.project.url}}/design-{{number}}.png" class="figure-img img-fluid rounded"
+            alt="{{this.project.title}} design">
+        </figure>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section section-grey">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <h3 class="h4 my-3">Information</h3>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h3 class="h6 my-3">Time</h3>
+          <p class="my-3 font-weight-light">
+            March 2017 - June 2017
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h3 class="h6 my-3">My Role </h3>
+          <p class="my-3 font-weight-light">
+            Graphic Designer
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h3 class="h6 my-3">Social Media Link</h3>
+          <p class="my-3 font-weight-light">
+            <a href="https://twitter.com/loadlink?lang=en" target="_blank">
+              Visit Twitter
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-button-section [nextUrl]="this.nextUrl"></app-button-section>
