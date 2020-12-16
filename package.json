@@ -22,7 +22,7 @@
     "@angular/router": "^7.2.16",
     "bootstrap": "^4.2.1",
     "core-js": "^2.5.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lity": "^2.3.1",
     "ng2-pdf-viewer": "^5.2.3",
     "popper.js": "^1.14.6",
